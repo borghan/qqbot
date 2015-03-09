@@ -16,6 +16,9 @@ plugins:
     - help
     - debug
     - apiserver
+    - weather
+    - price
+    - homework
 
 # apiserver 插件配置
 api_port:  3000
