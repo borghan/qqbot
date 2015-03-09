@@ -58,19 +58,15 @@ API
 ----
 TODO GET http://localhost:port/stdin?token=(token)&value=(value)  
 
-改动
-----
-https://github.com/xhan/qqbot/blob/master/CHANGELOG.md
 
 资料
 ----
 * WebQQ协议     https://github.com/xhan/qqbot/blob/master/protocol.md
 * Java版的另一个 http://webqq-core.googlecode.com/
 
-TODO
----
-* 群成员拉取失败问题跟踪
-* 用户信息,qq号等
-* 机器人响应前缀
-* 图片发送支持
+增加
+----
+* 引入 [图灵](http://www.tuling123.com) 机器人
+* 通过图灵机器人的 API 加入天气和问价功能
+* 发布作业功能
 
