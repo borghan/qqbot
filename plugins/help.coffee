@@ -21,10 +21,16 @@ HELP_INFO = """
     version/about   #版本信息和关于
     plugins         #查看载入的插件
     time            #显示时间
-    echo 爱你        #重复后面的话
+    echo 爱你       #重复后面的话
     help            #本内容
     uptime          #服务运行时间
     roll            #返回1-100随机值
+    comic           #随机显示动漫里的一句话
+    长沙天气        #某个城市最近三天的天气
+    红牛价格/多少钱        #某物品的价格    
+    作业            #最近的作业
+
+    -- 有建议或意见请mailto:b0rg@qq.com --
 """
 
 fs = require 'fs'
@@ -35,7 +41,7 @@ bundle = JSON.parse( fs.readFileSync file_path )
 VERSION_INFO = """
     v#{bundle.version} qqbot
     http://github.com/xhan/qqbot
-    本工具还由 糗事百科 热血赞助！
+    -- 二次修改 by b0rg --
 """
 
 ###
